@@ -1,0 +1,34 @@
+.cotainer{
+    background-color: rgb(188, 212, 234);
+    border: solid 2px red;
+    height: 500px;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: ;
+
+}
+.box{
+    border:solid 1px black;
+    margin: 5px;
+    padding: 5px;
+    width: 70px;
+    height: 70px;
+}
+#f1{
+    background-color: greenyellow;
+
+}
+#f2{
+    background-color: orange;
+    
+}
+#f3{
+    background-color: purple;
+}
+#f4{
+    background-color: yellow;
+}
+#f5{
+    background-color: rgb(209, 23, 147);
+}

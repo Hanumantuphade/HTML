@@ -1,0 +1,25 @@
+.container{
+    height: 450px;
+    border: solid red 2px;
+    padding: 7px;
+    display: flex;
+    
+}
+#r1{
+    width: 45%;
+
+}
+#r2{
+    width: 55%;
+
+}
+#v1{
+    height: 400px;
+    width: 500px;
+}
+@media (min-width:600px) {
+    .container{
+        display: block;
+    }
+    
+}

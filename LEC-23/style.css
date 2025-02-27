@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --custom-color:red;
+
+
+}
+.container{
+    border: solid 2px red;
+    height: 500px;
+    width: 90%;
+    margin-left:50px ;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.shadow{
+    border: solid 2px orange;
+    height: 120px;
+    width: 600px;
+    margin: 20px;
+    padding: 20px;
+
+    /*-------box shadow--------*/
+
+    /* using normal shadow
+    box-shadow: 20px 30px  pink;*/
+
+    /* using  shadow wiht blur
+    box-shadow: 20px 20px 20px hotpink;*/
+
+    /* using  shadow with blur & spred
+
+    box-shadow: 20px 20px 20px 10px hotpink;*/
+
+    /* using  shadow inside the box
+
+    box-shadow: inset 20px 20px 10px hotpink ;*/
+
+    /* using 2 color in one time*/
+    
+
+    box-shadow: 15px 15px 7px var(--custom-color),-15px -15px 7px orangered ;
+    
+
+
+}
+#head{
+    color:red;
+    /*text-shadow: 5px 5px pink;*/
+
+    text-shadow: 2px 2px 2px hotpink ;
+
+
+}
+

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>job applliction</title>
+</head>
+<body>
+    <form>
+        <h1>job appplition with resum upload</h1>
+        <h3>contact information</h3>
+        <label for="name">first name:</label>
+        <input type="text" id="name">
+
+        <label for="name">last name:</label>
+        <input type="text" id="name">
+
+        <br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email">
+
+        <br><br>
+        <label for="contact">Contact:</label>
+        <input type="tel" id="contact">
+
+        <br><br>
+        <h3>position</h3>
+
+        <label for="position">position you are applay for</label> <br>
+        <input type="text" id="position">
+        <br><br>
+
+        <label for="resume">Resume</label>
+        <input type="file" id="resume">
+
+        <br><br>
+
+        <label for="portfolio">portfolio website:</label>
+        <input type="text" id="portfolio">
+
+        <br><br>
+
+        <h3>are you willing to relocate</h3>
+
+        <label for="r1">Yes</label>
+        <input type="radio" id="r1" name="r1">
+
+        <label for="r2">No</label>
+        <input type="radio" id="r2" name="r1">
+
+        <label for="r3">Not Sure</label>
+        <input type="radio" id="r3" name="r1">
+        
+        <br><br>
+
+        <label for="edu">Highest education</label>
+        <select name="edu" id="edu">
+            <option value="undergraduate">Associate degree</option>
+            <option value="bachlore's degree(undergraduate)">bachlore's degree</option>
+            <option value="master' dgree (graduate)">Associate degree</option>
+           
+        </select>
+        
+        <br><br>
+        <fieldset>
+            <legend>skils</legend>
+            <label for="check">HTML</label>
+            <input type="checkbox" id="check" name="check1">
+            <label for="check">CSS</label>
+            <input type="checkbox" id="check" name="check1">
+            <label for="check">JAVASCRIPT</label>
+            <input type="checkbox" id="check" name="check1">
+            <label for="check">REACT</label>
+            <input type="checkbox" id="check" name="check1">
+        </fieldset>
+
+        <br><br>
+        <label for="ex">experience(in year)</label>
+        <input type="number" id="ex" min="0" max="10">
+        <br><br>
+
+        <fieldset>
+            <legend>Availability</legend>
+            <label for="full">Fultime</label>
+            <input type="radio" id="full" name="avi">
+            <label for="intern">Internship</label>
+            <input type="radio" id="intern" name="avi">
+        </fieldset>
+        <br>
+        <button>submit</button>
+
+
+    </form>
+    
+</body>
+</html>

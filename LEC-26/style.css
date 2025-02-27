@@ -1,0 +1,18 @@
+.container{
+    height: 100px;
+    width: 200px;
+    border: solid 2px red;
+    background-color: greenyellow;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin: 100px;
+    transition: all 1s;
+}
+.container:hover{
+    /*transform: scale(2);*/
+    transform: rotate(360deg);
+    /*transform: skewy(-30deg);*/
+    /*transform: translate(200px,50px);*/
+}

@@ -1,0 +1,14 @@
+.container{
+    border: solid 2px red;
+    height: 700px;
+    padding: 15px;
+    margin: 10px;
+    
+}
+
+@media (max-width:600px) {
+    .container{
+        background-color: hotpink;
+    }
+    
+}

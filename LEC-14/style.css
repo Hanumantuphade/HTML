@@ -1,0 +1,16 @@
+p{
+    color: red;
+    background-color: cornsilk;
+}
+#r1{
+    color: olive;
+    background-color: darkkhaki;
+}
+.r2{
+    color: orange;
+    background-color: greenyellow;
+}
+section,article{
+    color:blue;
+    background-color: yellow;
+}

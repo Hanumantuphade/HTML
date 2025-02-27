@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1000px;
+    height: 500px;
+    border: solid 3px red;
+    background-color: blue;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.box{
+    height: 60px;
+    width: 950px;
+    margin: 10px;
+    border: solid 3px red;
+    border-radius: 10px;
+    background-color: orangered;
+    /*animation-name: box;
+    position: relative;
+    animation-delay: 1s;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-fill-mode: backwards;
+
+    animation: 3s ease-in 1s infinite alternate both box;*/
+}
+#boll1{
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+    border: solid 2px red;
+    border-radius: 20px;
+    background-color: rgb(220, 203, 16);
+    animation-name: box;
+    position: relative;
+    animation: 3s ease-in 1s infinite alternate both boll1;
+}
+@keyframes boll1 {
+    from{
+        top: 0;
+        left: 0;
+
+    }
+    to{
+        top: 0;
+        left:880px;
+
+    }
+}
+.box1{
+    height: 60px;
+    width: 950px;
+    margin-top: 350px;
+    margin-left: 10px;
+    border: solid 3px red;
+    border-radius: 10px;
+    background-color: orangered;
+    /*animation-name: box1;
+    position: relative;
+    animation: 3s ease-in 1s infinite alternate both box1;*/
+}
+#boll2{
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+    border: solid 2px red;
+    border-radius: 20px;
+    background-color: rgb(220, 203, 16);
+    animation-name: boll2;
+    position: relative;
+    animation: 3s ease-in 1s infinite alternate-reverse both boll2;
+}
+
+@keyframes boll2 {
+    from{
+        top:5px;
+        left: 0;
+
+    }
+    to{
+        top:5px;
+        left:880px;
+
+    }
+}
+.circle{
+    height: 80px;
+    width: 80px;
+    border: solid 3px rgb(141, 5, 80);
+    background-color: limegreen;
+    border-radius: 40px;
+    position: relative;
+    top: 35%;
+    left: 35%;
+    animation-name: circle;
+    animation: 3s ease-in 1s infinite alternate-reverse both circle;
+} 
+@keyframes circle{
+    0%{
+        background-color: yellow;
+        left: 10;
+        top: 10;
+    }
+    25%{
+        background-color: rgb(139, 11, 112);
+        left: 80px;
+        top: 280px;
+    }
+    50%{
+        background-color: rgb(46, 173, 18);
+        left: 250px;
+        top: 300px;
+    }
+    75%{
+        background-color:red;
+        left: 50px;
+        top: 50px;
+    }
+    100%{
+        background-color:orangered;
+        left:200px;
+        top: 300px;
+    }
+}  

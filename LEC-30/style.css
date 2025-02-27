@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    margin: 10px;
+    border: solid 2px red;
+    background-color: turquoise;
+    padding: 3rem;
+    gap: 2rem;
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    
+    
+
+}
+.box{
+    height: 120px;
+    width: 150px;
+    border: solid 2px black;
+    background-color: #fff;
+    justify-content: space-evenly;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 2s;
+}
+#box1:hover{
+    transform:perspective(700px) rotateX(45deg);
+}
+
+#box2:hover{
+    transform:perspective(500px) rotateY(45deg);
+}
+#box3:hover{
+    transform: rotateZ(50deg);
+}
+#box4:hover{
+    transform:perspective(400px) translateX(100px);
+}
+#box5:hover{
+    transform: translateY(45px);
+}
+#box6:hover{
+    transform:perspective(500px) translatez(80px);
+}
+#box7:hover{
+    transform: scaleX(1.39);
+}
+#box8:hover{
+    transform: scaley(0.52);
+}
+#box9:hover{
+    transform:perspective(400px) rotateY(40deg)  scalez(2);
+}
+#box10:hover{
+    transform: perspective(500px) translate3d(30px,65px,100px);
+}
+#box11:hover{
+    transform: perspective(500px) rotate(30deg) scale3d(0.65,1,0.45);
+}
+
+#box12:hover{
+    transform: perspective(500px) skewX(22deg);
+}
+#box13:hover{
+    transform: perspective(500px) skewY(22deg);
+
